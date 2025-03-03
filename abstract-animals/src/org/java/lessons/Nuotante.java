@@ -1,5 +1,5 @@
 package org.java.lessons;
 
-public interface INuotante {
+public interface Nuotante {
     void nuota();
 }

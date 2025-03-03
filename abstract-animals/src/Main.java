@@ -1,9 +1,19 @@
 import org.java.lessons.Aquila;
 import org.java.lessons.Cane;
 import org.java.lessons.Delfino;
+import org.java.lessons.Nuotante;
+import org.java.lessons.Volante;
 import org.java.lessons.Passerotto;
 
 public class Main {
+    public void faiVolare(Volante Animale) {
+        Animale.vola();
+    }
+
+    public void faiNuotare(Nuotante Animale) {
+        Animale.nuota();
+    }
+
     public static void main(String[] args) {
         Passerotto passerotto1 = new Passerotto();
         Cane cane1 = new Cane();

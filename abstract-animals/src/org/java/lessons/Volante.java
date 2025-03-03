@@ -1,5 +1,5 @@
 package org.java.lessons;
 
-public interface IVolante {
+public interface Volante {
     void vola();
 }
