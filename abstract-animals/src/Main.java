@@ -6,12 +6,12 @@ import org.java.lessons.Volante;
 import org.java.lessons.Passerotto;
 
 public class Main {
-    public void faiVolare(Volante Animale) {
-        Animale.vola();
+    public static void faiVolare(Volante animale) {
+        animale.vola();
     }
 
-    public void faiNuotare(Nuotante Animale) {
-        Animale.nuota();
+    public static void faiNuotare(Nuotante animale) {
+        animale.nuota();
     }
 
     public static void main(String[] args) {
@@ -32,5 +32,9 @@ public class Main {
         delfino1.dormi();
         delfino1.mangia();
         delfino1.verso();
+
+        faiVolare(passerotto1);
+        faiVolare(aquila1);
+        faiNuotare(delfino1);
     }
 }
