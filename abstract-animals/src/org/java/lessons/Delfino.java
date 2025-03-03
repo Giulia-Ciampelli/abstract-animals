@@ -1,6 +1,6 @@
 package org.java.lessons;
 
-public class Delfino extends Animale implements Nuotante {
+public class Delfino extends AbstractAnimale implements Nuotante {
 
     @Override
     public void verso() {

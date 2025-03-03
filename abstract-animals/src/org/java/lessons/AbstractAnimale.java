@@ -1,6 +1,6 @@
 package org.java.lessons;
 
-public abstract class Animale {
+public abstract class AbstractAnimale {
     public abstract void verso();
     public abstract void mangia();
     
